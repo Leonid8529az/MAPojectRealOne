@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "TestNGSuiteListeners">
+    <parameter name="propertyDriver" value="webdriver.chrome.driver"></parameter>
+    <parameter name="driverPath" value="C:\\Users\\wormi\\IdeaProjects\\MAproject\\src\\driver\\chromedriver.exe"></parameter>
+    <listeners>
+        <listener class-name="listeners.Listeners"></listener>
+    </listeners>
+
+    <test name="listenerTest">
+        <classes>
+            <class name="listeners.TestListeners"></class>
+
+        </classes>
+    </test>
+</suite>

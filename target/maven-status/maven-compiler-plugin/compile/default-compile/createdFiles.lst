@@ -1,0 +1,8 @@
+MAproject\App.class
+screenshotscapture\ScreenShotCapture.class
+extentreport\ExtentTestManager.class
+mailingfunction\MailingReport.class
+extentreport\ExtentManager.class
+listeners\TestListeners.class
+listeners\Listeners.class
+commonAPI\CommonAPI.class
